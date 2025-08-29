@@ -1,3 +1,8 @@
+:root{
+    /*o Root aplica para toda a pagina, */ 
+    font-family: "Alice", serife;
+    line-height: 150%;
+}
 #bg-image{ 
    background: url(/assets/main-image.png) ;
    background-size: cover;
@@ -17,6 +22,7 @@
     font-weight: 400;
 }
 #container{
+
     box-sizing: border-box; /*tira o padrão da caixa, de somar o tamnho final como padding*/
     width: 800px;
     padding: 24px;
@@ -42,7 +48,6 @@
 
 /* Centraliza o footer */
 #footer {
-    border: 2px solid black;
     text-align: center;
     font-family:"Alice";
     font-weight: 400;
