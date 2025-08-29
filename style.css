@@ -1,19 +1,15 @@
-#bg-image:before{ 
-   background: url(/assets/main-image.png) no-repeat center center fixed ;
-  content: '';
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background-size: cover;
-  filter: blur(5px);
-  z-index: -1;
+#bg-image{ 
+   background: url(/assets/main-image.png) ;
+   background-size: cover;
 }
 
 
 #capa-img{
+  margin-top: 24px;
   height: 400px;
   border-radius:16px ;
-  margin: 16px;
+  
+
 
 }
 #title{
@@ -21,24 +17,39 @@
     font-weight: 400;
 }
 #container{
-    background: #F0E8C2;
-    margin: 48px 240px 28px 240px;
+    box-sizing: border-box; /*tira o padrão da caixa, de somar o tamnho final como padding*/
+    width: 800px;
+    padding: 24px;
+    margin: 48px auto;
     border-radius: 24px;
-    size: auto;
-    padding: 24px ;
+    display: flex;
+    flex-direction: column;
+    background: #F0E8C2;
 
 }
 
+#container2{
+    margin: 24px;
+}
 
-#footer{
+
+
+/* Centraliza a imagem */
+#capa-img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Centraliza o footer */
+#footer {
     border: 2px solid black;
     text-align: center;
     font-family:"Alice";
     font-weight: 400;
     color: #F0E8C2;
     font-size: 16px;;
-    
+    margin-top: 20px;
 }
 
-    
-   
+
+
